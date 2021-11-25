@@ -1,0 +1,162 @@
+/*------------componentes en crudo-------*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+ font-size: 1rem;   
+}
+
+body{
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------menu-------*/
+
+.nav{
+    background-color: azure;
+    height: 3rem;
+    text-align: center;
+    width: 100vw;
+    text-align: center;
+    position: flex;
+    
+}
+
+.nav_menu{
+    color: rgb(90, 116, 116);
+    height: 2rem;
+    text-decoration: underline 2px rgb(90, 116, 116);
+    text-align: center;
+}
+ 
+    
+
+.nav__menu__item{
+    margin: 1rem;
+    display: inline-block;
+    padding: .1rem .5rem;
+    justify-content:space-evenly; 
+    font-size: x-small;
+   
+}
+
+
+/*------------bloque1-------*/
+
+.Gran1{
+    background-color: rgb(222, 248, 244);
+    position: absolute;
+    top: 3rem;
+    height: 20rem;
+    width: 100vw;
+}
+
+.Gran1 h1{
+    font-size: 5rem;
+    color: rgb(24, 41, 56);
+}
+.Gran1 p{
+    margin: 1rem  3rem;
+    font-size: 0.5rem;
+    font-weight: 800;
+    color: rgb(47, 75, 99);
+}
+
+@@media screen and ( max-width: 35rem ) {
+    .Gran1{
+        background-color: rgb(222, 248, 244);
+        top: 3rem;
+        height: 20rem;
+        width: 100vw;
+        display: inline-block;
+    }
+    
+    .Gran1 h1{
+        font-size: 5rem;
+        color: rgb(24, 41, 56);
+    }
+
+    .Gran1 p{
+        margin: 1rem  3rem;
+        font-size: 0.5rem;
+        font-weight: 800;
+        color: rgb(47, 75, 99);
+    }
+    
+   
+}
+
+/*------------bloque2-------*/
+
+.Gran2{
+    background-color: rgb(199, 245, 238);
+    position: absolute;
+    top: 23rem;
+    height: 15rem;
+    width: 100vw;
+}
+
+.Gran2 h1{
+    font-size: 3rem;
+    font-weight: 100 ;
+    margin-right: 5rem;
+    color: rgb(24, 41, 56);
+}
+.Gran2 p{
+    margin: 1rem  3rem;
+    font-size: 0.5rem;
+    font-weight: 800;
+    color: rgb(47, 75, 99);
+}
+
+
+/*------------bloque3-------*/
+
+.Gran3{
+    background-color: rgb(199, 245, 238);
+    position: absolute;
+    top: 38rem;
+    height: 18rem;
+    width: 100vw;
+}
+
+.Gran3 h1{
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.Gran3__contenedor{
+        margin: auto;
+    width: 19rem;
+    height: 15rem;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+}
+
+.tarjeta{
+    background-color: rgb(138, 232, 245);
+    margin: 0.1rem;
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.alfa{
+    display: none;
+}
